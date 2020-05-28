@@ -11,7 +11,6 @@ const SignUp = ({signUpUser}) => {
     const registerUser = (event) => {
         event.preventDefault();
         if (emailId && password) {
-            console.log("========", emailId, password);
             const response = api.signUp.post({emailId, password})
                 .then(response => console.log(response))
                 .catch(error => console.log(error));
