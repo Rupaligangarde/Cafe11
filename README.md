@@ -1,2 +1,2 @@
 git testing 3
-meta data about 3rd commit
+he had to change this line for somereason
