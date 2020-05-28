@@ -1,7 +1,10 @@
-import React from "react";
+import React, {Fragment} from "react";
 import ReactDOM from "react-dom";
+import SignUp from "./components/SignUp";
 
 ReactDOM.render(
-    <h1>Hello There, Webpack dev setup is done!</h1>,
+    <Fragment>
+        <SignUp/>
+    </Fragment>,
     document.getElementById('root')
 );
